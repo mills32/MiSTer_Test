@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     container:
-      image: ghcr.io/raetro/quartus:<version>
+      image: raetro/quartus:latest
       options: --user root
 
     steps:
